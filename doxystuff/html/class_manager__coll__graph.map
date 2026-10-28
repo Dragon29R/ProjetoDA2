@@ -1,0 +1,5 @@
+<map id="Manager" name="Manager">
+<area shape="rect" id="Node000001" title="Manages the whole system and provides various functions needed for the various applications." alt="" coords="5,96,77,123"/>
+<area shape="rect" id="Node000002" href="$class_graph.html" title="The Graph class represents a graph, which is a collection of vertices and edges, in this case station..." alt="" coords="13,5,69,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="44,47,44,95,38,95,38,47"/>
+</map>

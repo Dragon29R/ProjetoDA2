@@ -1,0 +1,16 @@
+<map id="Manager::ReadMediumGraphs" name="Manager::ReadMediumGraphs">
+<area shape="rect" id="Node000001" title="Reads the ReadMediumGraph file nº node_number and creates a graph with the information in it." alt="" coords="657,31,854,57"/>
+<area shape="rect" id="Node000002" href="$main_8cpp.html#a28fd21995af1cefff4185d611245ba3c" title=" " alt="" coords="437,5,609,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="642,34,609,31,609,25,642,29"/>
+<area shape="rect" id="Node000006" href="$main_8cpp.html#a611d22f06d063d07635221ac8240d862" title=" " alt="" coords="445,56,601,83"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="643,59,602,63,601,58,642,54"/>
+<area shape="rect" id="Node000003" href="$main_8cpp.html#ad802fc40f402d7fdfbce2fc539da89b7" title=" " alt="" coords="232,5,389,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="423,21,390,21,390,16,423,16"/>
+<area shape="rect" id="Node000004" href="$main_8cpp.html#a6ad0e8059b3738a20454f521a20c093b" title=" " alt="" coords="103,31,184,57"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="218,35,185,41,184,35,217,30"/>
+<area shape="rect" id="Node000005" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,31,55,57"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="88,47,55,47,55,41,88,41"/>
+<area shape="rect" id="Node000007" href="$main_8cpp.html#a0585cca271f7e78e581b3f0399328428" title=" " alt="" coords="240,56,382,83"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="430,72,382,72,382,67,430,67"/>
+<area shape="poly" id="edge7_Node000007_Node000004" title=" " alt="" coords="224,59,184,53,185,47,225,54"/>
+</map>

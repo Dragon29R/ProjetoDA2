@@ -1,0 +1,19 @@
+<map id="Manager::minimumWeightMatching" name="Manager::minimumWeightMatching">
+<area shape="rect" id="Node000001" title="Creates a minimum weight matching graph based on the given vertices." alt="" coords="5,132,232,159"/>
+<area shape="rect" id="Node000002" href="$class_graph.html#a5d6b6b10ebe49cc0191ab45151cd49e7" title="Adds a new bidirectional edge to the graph." alt="" coords="280,5,466,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="139,129,200,90,279,48,311,35,313,40,281,53,203,95,142,134"/>
+<area shape="rect" id="Node000003" href="$class_graph.html#a089f7fc73ea9976295d387846ad36c69" title="Finds the vertex with the given ID." alt="" coords="514,56,636,83"/>
+<area shape="poly" id="edge7_Node000001_Node000003" title=" " alt="" coords="155,129,212,109,279,92,394,76,499,69,499,74,395,81,280,97,214,115,156,134"/>
+<area shape="rect" id="Node000004" href="$class_graph.html#a7728ace75903cc535287c01029d30868" title="Adds a new vertex with the given ID to the graph." alt="" coords="311,107,435,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="232,131,296,125,297,130,232,137"/>
+<area shape="rect" id="Node000005" href="$class_graph.html#a6857599c7a3eb276cb9dc802e342b20b" title=" " alt="" coords="316,157,430,184"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="232,154,301,161,301,166,232,159"/>
+<area shape="rect" id="Node000007" href="$class_vertex.html#a75b6b4a4afc26affea59fdae48aa30b1" title="Returns the ID of the vertex." alt="" coords="325,208,421,235"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="163,157,280,193,312,202,310,207,279,199,162,162"/>
+<area shape="rect" id="Node000008" href="$class_edge.html#a1caaffca117bab3ff5b7387623a356f8" title="Gets the weight of the edge." alt="" coords="314,259,432,285"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="139,157,200,199,239,223,281,244,300,252,298,257,279,249,237,228,197,204,136,161"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="430,30,505,49,504,54,429,35"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="430,156,465,143,508,118,545,90,549,94,511,122,467,148,432,161"/>
+<area shape="rect" id="Node000006" href="$class_vertex.html#a9858f2aa388d2bfb49d9df8f4504b5a0" title="Returns the adjacent edges of the vertex." alt="" coords="523,157,627,184"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="430,168,508,168,508,173,430,173"/>
+</map>

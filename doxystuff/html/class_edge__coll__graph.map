@@ -1,0 +1,7 @@
+<map id="Edge" name="Edge">
+<area shape="rect" id="Node000001" title="Represents an line between 2 stations." alt="" coords="17,5,68,32"/>
+<area shape="poly" id="edge3_Node000001_Node000001" title=" " alt="" coords="84,7,91,11,95,19,86,29,69,31,68,26,84,25,89,18,87,15,81,12"/>
+<area shape="rect" id="Node000002" href="$class_vertex.html" title="Represents an station." alt="" coords="13,112,72,139"/>
+<area shape="poly" id="edge2_Node000002_Node000001" title=" " alt="" coords="19,45,12,57,8,72,12,87,28,110,24,113,7,89,3,72,7,55,14,42"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="41,97,41,88,41,56,40,33,45,33,46,56,46,88,46,97"/>
+</map>

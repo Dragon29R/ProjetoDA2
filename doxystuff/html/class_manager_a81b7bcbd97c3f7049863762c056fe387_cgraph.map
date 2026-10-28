@@ -1,0 +1,17 @@
+<map id="Manager::mergeGraphs" name="Manager::mergeGraphs">
+<area shape="rect" id="Node000001" title="Merges two graphs into one." alt="" coords="5,107,163,133"/>
+<area shape="rect" id="Node000002" href="$class_graph.html#a516f4487d70f4b15e413447afa8c2310" title="Adds a new edge to the graph." alt="" coords="223,5,339,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,104,151,74,209,42,223,35,226,40,212,46,154,78,107,108"/>
+<area shape="rect" id="Node000004" href="$class_graph.html#a6857599c7a3eb276cb9dc802e342b20b" title=" " alt="" coords="224,56,338,83"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="138,103,211,84,213,90,140,109"/>
+<area shape="rect" id="Node000005" href="$class_vertex.html#a9858f2aa388d2bfb49d9df8f4504b5a0" title="Returns the adjacent edges of the vertex." alt="" coords="408,81,512,108"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="163,112,393,96,393,102,163,117"/>
+<area shape="rect" id="Node000006" href="$class_vertex.html#a75b6b4a4afc26affea59fdae48aa30b1" title="Returns the ID of the vertex." alt="" coords="233,157,329,184"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="140,131,219,152,218,157,138,137"/>
+<area shape="rect" id="Node000007" href="$class_graph.html#a34dc8268e703217705d6ba9ac8b02170" title="Gets the vector of vertices in the graph." alt="" coords="211,208,351,235"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="107,132,154,162,212,194,226,200,223,205,209,198,151,166,104,136"/>
+<area shape="rect" id="Node000003" href="$class_graph.html#a089f7fc73ea9976295d387846ad36c69" title="Finds the vertex with the given ID." alt="" coords="399,31,521,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="339,24,385,31,384,36,339,29"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="338,59,384,52,385,57,339,64"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="339,75,394,83,393,88,338,80"/>
+</map>

@@ -1,0 +1,56 @@
+\doxysection{manager.\+h}
+\hypertarget{manager_8h_source}{}\label{manager_8h_source}\mbox{\hyperlink{manager_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#ifndef\ DA2\_MANAGER\_H}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#define\ DA2\_MANAGER\_H}}
+\DoxyCodeLine{00004\ }
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <sstream>}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ <fstream>}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#include\ <algorithm>}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ <limits>}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ <cmath>}}
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ <stack>}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ <unordered\_set>}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_graph_8h}{Graph.h}}"{}}}
+\DoxyCodeLine{00014\ }
+\DoxyCodeLine{00015\ }
+\DoxyCodeLine{00016\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{double}\ \mbox{\hyperlink{manager_8h_a93cc35188eb6a2c02410fd12edec3fdf}{RADIUS\_OF\_EARTH}}\ =\ 6371000.0;\ \ \ \ \ \ \textcolor{comment}{//\ Radius\ of\ the\ Earth\ in\ meters}}
+\DoxyCodeLine{00021\ \textcolor{comment}{}\textcolor{keyword}{class\ \ }\mbox{\hyperlink{class_manager}{Manager}}\{}
+\DoxyCodeLine{00022\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00023\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_graph}{Graph}}\ \mbox{\hyperlink{class_manager_a716df90efe99e99e8ebb1ac8a83db795}{network}};}
+\DoxyCodeLine{00028\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_manager_a0fa81e2c235358bcb674b2fe2b6e3410}{ReadFileToyGraphTourism}}();}
+\DoxyCodeLine{00033\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_manager_a1078a46f180586499a1730394b219b3f}{ReadFileToyGraphShipping}}();}
+\DoxyCodeLine{00034\ }
+\DoxyCodeLine{00039\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_manager_a94848877d6d9aa3ff88b574af05b96c5}{ReadFileToyGraphStadiums}}();}
+\DoxyCodeLine{00040\ }
+\DoxyCodeLine{00046\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_manager_a5525eb8810f21b446a0a2cb7bf00ac60}{ReadRealWorldGraphs}}(\textcolor{keywordtype}{string}\ file\_number);}
+\DoxyCodeLine{00047\ }
+\DoxyCodeLine{00053\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_manager_af2aed9183b5d9a58fbf0ee826d766079}{ReadMediumGraphs}}(\textcolor{keywordtype}{string}\ node\_number);}
+\DoxyCodeLine{00054\ }
+\DoxyCodeLine{00055\ }
+\DoxyCodeLine{00060\ \ \ \ \ tuple<vector<int>,\ double,\ \textcolor{keywordtype}{double}>\ \mbox{\hyperlink{class_manager_a07a991842ccc19466a9e36ccbbce2ae0}{tspBacktracking}}();}
+\DoxyCodeLine{00061\ }
+\DoxyCodeLine{00069\ \ \ \ \ tuple<double,\ double>\ \mbox{\hyperlink{class_manager_ab2cc466cedfea314fe38082e2203bb4a}{tspApproximation}}();}
+\DoxyCodeLine{00070\ }
+\DoxyCodeLine{00075\ \ \ \ \ \ \ \ \ tuple<double,\ double>\ \mbox{\hyperlink{class_manager_a413a6610398682bbfa59c060c82fd4ea}{christofides}}();}
+\DoxyCodeLine{00076\ }
+\DoxyCodeLine{00077\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00078\ }
+\DoxyCodeLine{00090\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_manager_a9c679f596c97a8f14ea59cea4e3b0708}{tspBacktrackingUtil}}(\mbox{\hyperlink{class_vertex}{Vertex}}*\ currentVertex,\ vector<int>\&\ path,\ \textcolor{keywordtype}{double}\ cost,\ \textcolor{keywordtype}{double}\&\ bestCost,\ vector<int>\&\ bestPath);}
+\DoxyCodeLine{00102\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{double}\ \mbox{\hyperlink{class_manager_a22689a9ae33f012e1fe501618c0fd283}{haversine}}(\textcolor{keywordtype}{double}\ lat1,\ \textcolor{keywordtype}{double}\ lon1,\ \textcolor{keywordtype}{double}\ lat2,\ \textcolor{keywordtype}{double}\ lon2);}
+\DoxyCodeLine{00107\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_manager_a684ec0e9188eef63697049bd175c8449}{prim}}();}
+\DoxyCodeLine{00114\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_manager_a9c3768c549e153ab0e389405aab95b1f}{dfs}}(\mbox{\hyperlink{class_vertex}{Vertex}}\ *vertex,\ vector<Vertex*>\ \&path);}
+\DoxyCodeLine{00115\ }
+\DoxyCodeLine{00121\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{double}\ \mbox{\hyperlink{class_manager_a7861d385e949779fac6d25d3ce932b2d}{ApproximationDistance}}(\textcolor{keyword}{const}\ vector<Vertex\ *>\ \&path);}
+\DoxyCodeLine{00129\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_graph}{Graph}}\ \mbox{\hyperlink{class_manager_a3f09d20bde9105f4e05afcb526c4671c}{createNewGraph}}(\mbox{\hyperlink{class_graph}{Graph}}\ TemplateGraph);}
+\DoxyCodeLine{00138\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_graph}{Graph}}\ \mbox{\hyperlink{class_manager_a092636d4c4565afd06eccfaa6caea4b6}{minimumWeightMatching}}(\textcolor{keyword}{const}\ vector<Vertex\ *>\ \&vertices);}
+\DoxyCodeLine{00143\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_manager_a6b28e6723d6c47a59bae1a714fc21f05}{resetGraph}}();}
+\DoxyCodeLine{00144\ }
+\DoxyCodeLine{00152\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_graph}{Graph}}\ \mbox{\hyperlink{class_manager_a81b7bcbd97c3f7049863762c056fe387}{mergeGraphs}}(\mbox{\hyperlink{class_graph}{Graph}}\ graph,\ \mbox{\hyperlink{class_graph}{Graph}}\ graph1);}
+\DoxyCodeLine{00153\ \};}
+\DoxyCodeLine{00154\ }
+\DoxyCodeLine{00155\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

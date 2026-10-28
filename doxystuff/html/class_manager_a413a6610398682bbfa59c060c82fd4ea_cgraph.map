@@ -1,0 +1,86 @@
+<map id="Manager::christofides" name="Manager::christofides">
+<area shape="rect" id="Node000001" title="Applies the Christofides algorithm to find an approximate solution to the Traveling Salesman Problem ..." alt="" coords="5,488,151,515"/>
+<area shape="rect" id="Node000002" href="$class_manager.html#a7861d385e949779fac6d25d3ce932b2d" title="Calculates the total approximate distance of a given path, considering both direct connections and Ha..." alt="" coords="205,247,419,274"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,487,128,418,160,375,197,334,234,304,272,279,275,283,237,308,201,338,164,378,132,421,89,489"/>
+<area shape="rect" id="Node000004" href="$class_graph.html#a089f7fc73ea9976295d387846ad36c69" title="Finds the vertex with the given ID." alt="" coords="707,247,830,274"/>
+<area shape="poly" id="edge35_Node000001_Node000004" title=" " alt="" coords="80,487,93,442,117,376,151,303,173,267,197,233,259,158,316,105,347,84,382,65,472,30,525,13,569,3,591,3,613,7,661,30,686,50,706,74,737,129,756,186,766,232,761,233,751,187,732,131,702,77,682,54,658,35,611,12,590,9,570,9,526,18,474,35,384,70,349,88,319,109,263,162,201,237,177,270,156,305,122,378,99,444,85,489"/>
+<area shape="rect" id="Node000011" href="$class_manager.html#a3f09d20bde9105f4e05afcb526c4671c" title="Creates a new graph based on a template graph." alt="" coords="224,812,400,839"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="91,514,294,798,290,801,87,517"/>
+<area shape="rect" id="Node000021" href="$class_graph.html#a34dc8268e703217705d6ba9ac8b02170" title="Gets the vector of vertices in the graph." alt="" coords="496,602,636,628"/>
+<area shape="poly" id="edge36_Node000001_Node000021" title=" " alt="" coords="139,513,492,595,490,600,138,518"/>
+<area shape="rect" id="Node000027" href="$class_manager.html#a9c3768c549e153ab0e389405aab95b1f" title="Performs a depth&#45;first search (DFS) starting from the given vertex, exploring only the selected edges..." alt="" coords="264,1299,360,1326"/>
+<area shape="poly" id="edge30_Node000001_Node000027" title=" " alt="" coords="86,514,305,1284,300,1285,81,516"/>
+<area shape="rect" id="Node000028" href="$class_manager.html#a81b7bcbd97c3f7049863762c056fe387" title="Merges two graphs into one." alt="" coords="233,468,391,495"/>
+<area shape="poly" id="edge37_Node000001_Node000028" title=" " alt="" coords="151,493,218,487,218,492,151,498"/>
+<area shape="rect" id="Node000030" href="$class_manager.html#a092636d4c4565afd06eccfaa6caea4b6" title="Creates a minimum weight matching graph based on the given vertices." alt="" coords="199,348,425,375"/>
+<area shape="poly" id="edge44_Node000001_Node000030" title=" " alt="" coords="101,485,274,381,276,385,104,490"/>
+<area shape="rect" id="Node000031" href="$class_manager.html#a6b28e6723d6c47a59bae1a714fc21f05" title="resets the graph. @Complexity O(V), where V is the number of vertexs." alt="" coords="240,1400,384,1427"/>
+<area shape="poly" id="edge51_Node000001_Node000031" title=" " alt="" coords="82,515,90,664,109,908,125,1038,145,1161,170,1264,185,1304,201,1336,230,1368,265,1391,262,1395,226,1372,196,1339,180,1306,165,1265,140,1162,119,1039,104,908,84,664,77,515"/>
+<area shape="rect" id="Node000003" href="$class_graph.html#a6857599c7a3eb276cb9dc802e342b20b" title=" " alt="" coords="509,247,623,274"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="419,258,494,258,494,263,419,263"/>
+<area shape="rect" id="Node000006" href="$class_vertex.html#a75b6b4a4afc26affea59fdae48aa30b1" title="Returns the ID of the vertex." alt="" coords="519,348,614,375"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="340,272,400,302,474,334,505,344,503,349,472,339,398,307,337,276"/>
+<area shape="rect" id="Node000007" href="$class_vertex.html#a00d369a09afbd7bf881b9b0a1de3be71" title=" " alt="" coords="501,44,632,71"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="319,245,342,211,376,167,420,120,472,81,485,73,488,78,474,85,424,124,380,170,346,214,324,248"/>
+<area shape="rect" id="Node000008" href="$class_vertex.html#acfc7e9809efb9196a42855adaa74ef03" title=" " alt="" coords="496,95,637,122"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="325,245,385,190,427,158,472,131,487,125,489,129,474,136,430,163,388,194,328,249"/>
+<area shape="rect" id="Node000009" href="$class_edge.html#a1caaffca117bab3ff5b7387623a356f8" title="Gets the weight of the edge." alt="" coords="507,298,625,324"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="383,272,493,294,492,299,382,277"/>
+<area shape="rect" id="Node000010" href="$class_manager.html#a22689a9ae33f012e1fe501618c0fd283" title="Calculates the Haversine distance between two points on the Earth&#39;s surface." alt="" coords="500,146,633,172"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="342,244,472,188,508,175,510,180,474,193,345,249"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="624,258,692,258,692,263,624,263"/>
+<area shape="rect" id="Node000005" href="$class_vertex.html#a9858f2aa388d2bfb49d9df8f4504b5a0" title="Returns the adjacent edges of the vertex." alt="" coords="716,862,821,888"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="625,263,644,271,661,284,675,303,688,329,710,393,728,472,742,558,760,727,769,847,763,847,755,727,737,559,723,473,705,395,683,331,671,306,657,287,642,275,623,268"/>
+<area shape="poly" id="edge17_Node000011_Node000005" title=" " alt="" coords="316,839,324,909,333,958,347,1013,367,1068,394,1122,430,1170,475,1209,523,1235,545,1241,567,1244,589,1242,611,1236,658,1209,691,1178,716,1140,736,1098,749,1054,763,969,765,903,771,903,768,969,754,1055,741,1100,721,1143,695,1181,661,1213,613,1240,590,1247,567,1249,544,1247,521,1240,471,1213,426,1174,390,1125,362,1071,342,1014,328,960,319,910,311,840"/>
+<area shape="poly" id="edge20_Node000011_Node000006" title=" " alt="" coords="315,811,399,574,471,385,486,374,503,367,505,372,489,379,475,389,405,576,321,813"/>
+<area shape="poly" id="edge24_Node000011_Node000009" title=" " alt="" coords="316,811,361,687,422,506,432,456,434,414,443,375,454,355,471,334,491,320,494,325,475,338,458,358,448,377,440,415,437,457,428,508,366,688,321,813"/>
+<area shape="rect" id="Node000012" href="$class_graph.html#a5d6b6b10ebe49cc0191ab45151cd49e7" title="Adds a new bidirectional edge to the graph." alt="" coords="473,399,659,426"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="314,811,338,734,376,621,423,509,447,465,471,436,476,431,480,436,475,439,452,468,428,511,381,623,343,735,320,813"/>
+<area shape="rect" id="Node000013" href="$class_graph.html#a7728ace75903cc535287c01029d30868" title="Adds a new vertex with the given ID to the graph." alt="" coords="505,551,628,578"/>
+<area shape="poly" id="edge13_Node000011_Node000013" title=" " alt="" coords="316,811,335,767,368,707,413,643,441,613,471,587,490,577,492,582,475,592,444,617,417,646,372,710,340,770,321,813"/>
+<area shape="rect" id="Node000014" href="$class_mutable_priority_queue.html#a0878839cc1d2dba2b8ab2e589ecc6405" title=" " alt="" coords="493,972,639,1015"/>
+<area shape="poly" id="edge14_Node000011_Node000014" title=" " alt="" coords="328,837,388,895,430,928,474,958,484,963,481,968,472,963,426,932,385,899,324,841"/>
+<area shape="rect" id="Node000015" href="$class_mutable_priority_queue.html#a2edbb1f4a6fa3ff735700dfcebebe8d4" title=" " alt="" coords="493,1039,639,1082"/>
+<area shape="poly" id="edge15_Node000011_Node000015" title=" " alt="" coords="323,838,344,875,378,925,422,978,475,1025,482,1029,479,1034,471,1029,419,982,374,928,340,878,318,841"/>
+<area shape="rect" id="Node000016" href="$class_mutable_priority_queue.html#a3880874d7364279ac0d6d31302b28853" title=" " alt="" coords="493,1106,639,1148"/>
+<area shape="poly" id="edge16_Node000011_Node000016" title=" " alt="" coords="320,839,338,886,370,954,415,1028,443,1062,475,1092,482,1097,478,1101,471,1096,439,1065,411,1031,365,957,333,888,315,840"/>
+<area shape="rect" id="Node000017" href="$class_edge.html#a5cda44e9ba257b03963a1ac301371a59" title="Gets the destination vertex of the edge." alt="" coords="514,1172,618,1199"/>
+<area shape="poly" id="edge18_Node000011_Node000017" title=" " alt="" coords="318,839,332,898,360,984,381,1032,407,1078,438,1121,475,1158,501,1173,499,1178,471,1162,434,1124,402,1081,376,1034,355,986,327,899,313,840"/>
+<area shape="rect" id="Node000018" href="$class_vertex.html#aa36ca926de23a6e7283be42e2930957c" title="Returns the distance of the vertex." alt="" coords="512,652,620,679"/>
+<area shape="poly" id="edge19_Node000011_Node000018" title=" " alt="" coords="324,810,383,752,425,718,472,689,497,678,499,683,474,693,429,722,387,756,327,814"/>
+<area shape="rect" id="Node000019" href="$class_edge.html#a6e8b08e91c0694b40edff0432fb612eb" title="Gets the origin vertex of the edge." alt="" coords="516,703,617,730"/>
+<area shape="poly" id="edge21_Node000011_Node000019" title=" " alt="" coords="334,809,395,775,472,739,500,729,502,734,474,744,398,780,337,814"/>
+<area shape="rect" id="Node000020" href="$class_vertex.html#a6e120e57da6af94892fae44e05868794" title="Returns the path of the vertex." alt="" coords="510,754,622,780"/>
+<area shape="poly" id="edge22_Node000011_Node000020" title=" " alt="" coords="372,809,495,781,496,786,373,814"/>
+<area shape="poly" id="edge23_Node000011_Node000021" title=" " alt="" coords="319,811,341,776,375,729,419,680,472,638,482,632,485,637,474,642,423,684,379,732,345,779,323,813"/>
+<area shape="rect" id="Node000022" href="$class_mutable_priority_queue.html#a058fc182052af82e10cc3719e448b62d" title=" " alt="" coords="493,804,639,847"/>
+<area shape="poly" id="edge25_Node000011_Node000022" title=" " alt="" coords="400,823,478,823,478,828,400,828"/>
+<area shape="rect" id="Node000023" href="$class_vertex.html#aa4bd82105b85ee53a917391f4811cd8a" title="Returns the visited status of the vertex." alt="" coords="508,1324,625,1351"/>
+<area shape="poly" id="edge26_Node000011_Node000023" title=" " alt="" coords="316,839,321,920,329,980,342,1047,362,1118,390,1188,427,1253,449,1283,475,1310,495,1324,492,1328,471,1314,445,1287,422,1256,385,1190,357,1120,337,1048,323,981,316,921,311,839"/>
+<area shape="rect" id="Node000024" href="$class_vertex.html#a6939bef79bfe5fe5bf77d9fd1bd70085" title="Sets the distance of the vertex." alt="" coords="512,871,620,898"/>
+<area shape="poly" id="edge27_Node000011_Node000024" title=" " alt="" coords="373,837,498,866,497,871,372,842"/>
+<area shape="rect" id="Node000025" href="$class_vertex.html#abe4bc30005eec65e775d0cd51f456460" title="Sets the path of the vertex." alt="" coords="510,922,622,948"/>
+<area shape="poly" id="edge28_Node000011_Node000025" title=" " alt="" coords="337,837,398,871,474,907,497,915,495,920,472,912,395,876,334,842"/>
+<area shape="rect" id="Node000026" href="$class_vertex.html#a15eeabbbb6d517af746ae137c6d5b595" title="Sets the visited status of the vertex." alt="" coords="504,1274,629,1300"/>
+<area shape="poly" id="edge29_Node000011_Node000026" title=" " alt="" coords="317,839,326,911,351,1022,371,1084,398,1145,432,1202,475,1253,492,1265,488,1270,471,1257,428,1205,393,1147,366,1086,345,1023,321,912,312,840"/>
+<area shape="poly" id="edge12_Node000012_Node000004" title=" " alt="" coords="635,396,658,385,687,362,712,336,750,285,754,288,716,339,690,366,661,389,637,401"/>
+<area shape="poly" id="edge32_Node000027_Node000005" title=" " alt="" coords="337,1324,399,1355,440,1371,484,1384,530,1392,576,1392,619,1383,658,1361,670,1347,682,1329,703,1279,721,1216,735,1146,754,1006,763,902,768,903,759,1006,740,1147,726,1217,708,1280,687,1331,675,1351,661,1365,621,1388,576,1398,530,1397,483,1389,438,1376,397,1360,335,1328"/>
+<area shape="poly" id="edge33_Node000027_Node000023" title=" " alt="" coords="361,1314,493,1328,492,1333,360,1320"/>
+<area shape="poly" id="edge34_Node000027_Node000026" title=" " alt="" coords="360,1305,488,1292,489,1297,361,1310"/>
+<area shape="poly" id="edge31_Node000027_Node000027" title=" " alt="" coords="273,1300,265,1290,270,1280,286,1274,312,1272,341,1275,356,1283,353,1287,340,1280,312,1278,287,1280,274,1284,271,1290,277,1297"/>
+<area shape="poly" id="edge40_Node000028_Node000003" title=" " alt="" coords="333,466,377,432,423,385,437,358,444,333,451,308,471,284,494,270,496,275,475,288,456,311,449,334,442,360,427,389,381,436,336,470"/>
+<area shape="poly" id="edge41_Node000028_Node000005" title=" " alt="" coords="391,483,465,489,544,499,614,515,641,525,661,537,693,571,718,611,737,654,750,698,766,782,770,846,765,847,760,783,745,699,732,655,713,613,689,574,658,541,639,530,613,520,543,504,465,494,391,488"/>
+<area shape="poly" id="edge42_Node000028_Node000006" title=" " alt="" coords="331,466,392,426,472,384,504,373,505,378,474,389,395,431,334,470"/>
+<area shape="poly" id="edge43_Node000028_Node000021" title=" " alt="" coords="334,493,474,587,491,594,489,599,472,592,331,497"/>
+<area shape="rect" id="Node000029" href="$class_graph.html#a516f4487d70f4b15e413447afa8c2310" title="Adds a new edge to the graph." alt="" coords="509,450,624,476"/>
+<area shape="poly" id="edge38_Node000028_Node000029" title=" " alt="" coords="391,473,494,466,494,471,391,478"/>
+<area shape="poly" id="edge39_Node000029_Node000004" title=" " alt="" coords="623,452,658,435,692,402,720,362,741,321,755,287,760,289,746,324,725,364,696,405,661,440,625,457"/>
+<area shape="poly" id="edge47_Node000030_Node000003" title=" " alt="" coords="337,345,398,315,472,283,494,276,495,281,474,288,400,320,340,350"/>
+<area shape="poly" id="edge48_Node000030_Node000004" title=" " alt="" coords="335,346,377,318,423,284,436,269,445,256,455,243,472,233,503,222,536,216,602,216,665,225,718,239,716,244,664,231,602,221,537,221,505,227,474,237,459,247,449,259,441,273,427,288,380,323,338,350"/>
+<area shape="poly" id="edge49_Node000030_Node000006" title=" " alt="" coords="425,359,504,359,504,364,425,364"/>
+<area shape="poly" id="edge50_Node000030_Node000009" title=" " alt="" coords="382,345,492,323,493,328,383,350"/>
+<area shape="poly" id="edge45_Node000030_Node000012" title=" " alt="" coords="383,373,482,393,481,398,382,378"/>
+<area shape="poly" id="edge46_Node000030_Node000013" title=" " alt="" coords="332,373,539,540,535,544,329,378"/>
+<area shape="rect" id="Node000032" href="$class_graph.html#aeca239012103ede21f7cc2cf2976c3a5" title=" " alt="" coords="502,1426,630,1452"/>
+<area shape="poly" id="edge52_Node000031_Node000032" title=" " alt="" coords="384,1418,487,1428,487,1434,384,1423"/>
+</map>

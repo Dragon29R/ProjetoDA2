@@ -1,0 +1,19 @@
+<map id="Manager::mergeGraphs" name="Manager::mergeGraphs">
+<area shape="rect" id="Node000001" title="Merges two graphs into one." alt="" coords="992,56,1150,83"/>
+<area shape="rect" id="Node000002" href="$class_manager.html#a413a6610398682bbfa59c060c82fd4ea" title="Applies the Christofides algorithm to find an approximate solution to the Traveling Salesman Problem ..." alt="" coords="799,56,944,83"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="977,72,944,72,944,67,977,67"/>
+<area shape="rect" id="Node000003" href="$main_8cpp.html#a44b89275122e9463c1354fdbc2a2aba7" title=" " alt="" coords="641,56,751,83"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="784,72,751,72,751,67,784,67"/>
+<area shape="rect" id="Node000004" href="$main_8cpp.html#a611d22f06d063d07635221ac8240d862" title=" " alt="" coords="429,5,586,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="629,54,559,35,561,30,630,49"/>
+<area shape="rect" id="Node000005" href="$main_8cpp.html#a0585cca271f7e78e581b3f0399328428" title=" " alt="" coords="232,56,374,83"/>
+<area shape="poly" id="edge7_Node000003_Node000005" title=" " alt="" coords="626,72,375,72,375,67,626,67"/>
+<area shape="rect" id="Node000008" href="$main_8cpp.html#ad6d1740e6a96b23522b5dc879c35d835" title=" " alt="" coords="422,107,593,133"/>
+<area shape="poly" id="edge8_Node000003_Node000008" title=" " alt="" coords="630,90,561,109,559,103,629,85"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="437,39,361,58,359,53,436,34"/>
+<area shape="rect" id="Node000006" href="$main_8cpp.html#a6ad0e8059b3738a20454f521a20c093b" title=" " alt="" coords="103,56,184,83"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="217,72,184,72,184,67,217,67"/>
+<area shape="rect" id="Node000007" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,56,55,83"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="88,72,55,72,55,67,88,67"/>
+<area shape="poly" id="edge9_Node000008_Node000005" title=" " alt="" coords="436,105,359,86,361,81,437,100"/>
+</map>

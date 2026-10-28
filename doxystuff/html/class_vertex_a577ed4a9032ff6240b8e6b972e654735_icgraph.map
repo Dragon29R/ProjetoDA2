@@ -1,0 +1,34 @@
+<map id="Vertex::setLatitude" name="Vertex::setLatitude">
+<area shape="rect" id="Node000001" title=" " alt="" coords="931,113,1062,140"/>
+<area shape="rect" id="Node000002" href="$class_manager.html#a1078a46f180586499a1730394b219b3f" title="Reads the file shipping file and creates a graph with the information in it. @Complexity O(V*E),..." alt="" coords="437,5,624,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="938,111,882,96,747,67,624,44,625,39,748,61,884,91,939,106"/>
+<area shape="rect" id="Node000007" href="$class_manager.html#a94848877d6d9aa3ff88b574af05b96c5" title="Reads the file stadiums file and creates a graph with the information in it. @Complexity O(V*E),..." alt="" coords="437,139,624,181"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="916,135,624,156,624,151,916,130"/>
+<area shape="rect" id="Node000009" href="$class_manager.html#a0fa81e2c235358bcb674b2fe2b6e3410" title="Reads the file tourism file and creates a graph with the information in it. @Complexity O(V*E),..." alt="" coords="437,72,624,115"/>
+<area shape="poly" id="edge12_Node000001_Node000009" title=" " alt="" coords="916,124,624,103,624,97,916,118"/>
+<area shape="rect" id="Node000010" href="$class_manager.html#a5525eb8810f21b446a0a2cb7bf00ac60" title="Reads the RealWorldGraph file nª file_number and creates a graph with the information in it...." alt="" coords="672,205,883,232"/>
+<area shape="poly" id="edge16_Node000001_Node000010" title=" " alt="" coords="950,149,813,207,810,202,948,144"/>
+<area shape="rect" id="Node000003" href="$main_8cpp.html#ad802fc40f402d7fdfbce2fc539da89b7" title=" " alt="" coords="232,113,389,140"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="448,57,439,62,415,83,406,93,391,104,365,115,363,110,388,99,402,89,412,79,436,58,446,52"/>
+<area shape="rect" id="Node000006" href="$main_8cpp.html#a6bb73af071ecd75e08d285c82df31035" title=" " alt="" coords="236,63,386,89"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="423,53,374,65,373,59,422,48"/>
+<area shape="rect" id="Node000004" href="$main_8cpp.html#a6ad0e8059b3738a20454f521a20c093b" title=" " alt="" coords="103,113,184,140"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="217,129,184,129,184,124,217,124"/>
+<area shape="rect" id="Node000005" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,113,55,140"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="88,129,55,129,55,124,88,124"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="251,97,185,117,184,112,249,92"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="422,146,389,141,390,136,423,141"/>
+<area shape="poly" id="edge9_Node000007_Node000006" title=" " alt="" coords="451,135,436,129,388,104,358,92,360,87,390,99,438,124,453,130"/>
+<area shape="rect" id="Node000008" href="$main_8cpp.html#a0585cca271f7e78e581b3f0399328428" title=" " alt="" coords="240,164,382,191"/>
+<area shape="poly" id="edge10_Node000007_Node000008" title=" " alt="" coords="423,171,383,174,382,169,423,166"/>
+<area shape="poly" id="edge11_Node000008_Node000004" title=" " alt="" coords="249,162,184,141,185,136,251,157"/>
+<area shape="poly" id="edge13_Node000009_Node000003" title=" " alt="" coords="423,112,390,117,389,112,422,107"/>
+<area shape="poly" id="edge14_Node000009_Node000006" title=" " alt="" coords="423,87,386,85,387,79,423,82"/>
+<area shape="poly" id="edge15_Node000009_Node000008" title=" " alt="" coords="453,123,438,129,390,154,360,166,358,161,388,150,436,124,451,118"/>
+<area shape="rect" id="Node000011" href="$main_8cpp.html#a3b6a5d8aa77bb32ce88b48fd3601ff9c" title=" " alt="" coords="438,205,623,232"/>
+<area shape="poly" id="edge17_Node000010_Node000011" title=" " alt="" coords="657,221,624,221,624,216,657,216"/>
+<area shape="rect" id="Node000012" href="$main_8cpp.html#ad6d1740e6a96b23522b5dc879c35d835" title=" " alt="" coords="445,256,616,283"/>
+<area shape="poly" id="edge19_Node000010_Node000012" title=" " alt="" coords="695,238,600,258,598,253,694,233"/>
+<area shape="poly" id="edge18_Node000011_Node000003" title=" " alt="" coords="450,202,436,196,421,185,411,175,402,164,388,154,363,143,365,138,391,150,405,160,415,171,425,181,439,191,452,197"/>
+<area shape="poly" id="edge20_Node000012_Node000008" title=" " alt="" coords="456,254,436,246,380,220,333,194,336,189,382,215,438,242,458,249"/>
+</map>

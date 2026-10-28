@@ -1,0 +1,5 @@
+<map id="Graph::addEdge" name="Graph::addEdge">
+<area shape="rect" id="Node000001" title="Adds a new edge to the graph." alt="" coords="5,5,121,32"/>
+<area shape="rect" id="Node000002" href="$class_graph.html#a089f7fc73ea9976295d387846ad36c69" title="Finds the vertex with the given ID." alt="" coords="169,5,291,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,16,154,16,154,21,121,21"/>
+</map>

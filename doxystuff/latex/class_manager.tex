@@ -1,0 +1,600 @@
+\doxysection{Manager Class Reference}
+\hypertarget{class_manager}{}\label{class_manager}\index{Manager@{Manager}}
+
+
+Manages the whole system and provides various functions needed for the various applications.  
+
+
+
+
+{\ttfamily \#include $<$manager.\+h$>$}
+
+
+
+Collaboration diagram for Manager\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=144pt]{class_manager__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_manager_a0fa81e2c235358bcb674b2fe2b6e3410}{Read\+File\+Toy\+Graph\+Tourism}} ()
+\begin{DoxyCompactList}\small\item\em Reads the file tourism file and creates a graph with the information in it. @\+Complexity O(\+V\texorpdfstring{$\ast$}{*}\+E),Where V is the number of vertexs and E is the number of edges. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_manager_a1078a46f180586499a1730394b219b3f}{Read\+File\+Toy\+Graph\+Shipping}} ()
+\begin{DoxyCompactList}\small\item\em Reads the file shipping file and creates a graph with the information in it. @\+Complexity O(\+V\texorpdfstring{$\ast$}{*}\+E),Where V is the number of vertexs and E is the number of edges. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_manager_a94848877d6d9aa3ff88b574af05b96c5}{Read\+File\+Toy\+Graph\+Stadiums}} ()
+\begin{DoxyCompactList}\small\item\em Reads the file stadiums file and creates a graph with the information in it. @\+Complexity O(\+V\texorpdfstring{$\ast$}{*}\+E),Where V is the number of vertexs and E is the number of edges. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_manager_a5525eb8810f21b446a0a2cb7bf00ac60}{Read\+Real\+World\+Graphs}} (string file\+\_\+number)
+\begin{DoxyCompactList}\small\item\em Reads the Real\+World\+Graph file nª file\+\_\+number and creates a graph with the information in it. @\+Complexity O(V+E),Where V is the number of vertexs and E is the number of edges. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_manager_af2aed9183b5d9a58fbf0ee826d766079}{Read\+Medium\+Graphs}} (string node\+\_\+number)
+\begin{DoxyCompactList}\small\item\em Reads the Read\+Medium\+Graph file nº node\+\_\+number and creates a graph with the information in it. \end{DoxyCompactList}\item 
+tuple$<$ vector$<$ int $>$, double, double $>$ \mbox{\hyperlink{class_manager_a07a991842ccc19466a9e36ccbbce2ae0}{tsp\+Backtracking}} ()
+\begin{DoxyCompactList}\small\item\em This function performs the traveling salesman problem using backtracking algorithm. @\+Complexity O(2\texorpdfstring{$^\wedge$}{\string^}\+V), where V is the number of vertexs. \end{DoxyCompactList}\item 
+tuple$<$ double, double $>$ \mbox{\hyperlink{class_manager_ab2cc466cedfea314fe38082e2203bb4a}{tsp\+Approximation}} ()
+\begin{DoxyCompactList}\small\item\em This function calculates an approximate solution to the Traveling Salesman Problem (TSP) using a combination of Prim\textquotesingle{}s algorithm, Depth-\/\+First Search (DFS), and other utility functions. \end{DoxyCompactList}\item 
+tuple$<$ double, double $>$ \mbox{\hyperlink{class_manager_a413a6610398682bbfa59c060c82fd4ea}{christofides}} ()
+\begin{DoxyCompactList}\small\item\em Applies the Christofides algorithm to find an approximate solution to the Traveling Salesman Problem (TSP). @\+Complexity O((V+E)\texorpdfstring{$\ast$}{*}\+V\texorpdfstring{$^\wedge$}{\string^}2), where V is the number of vertexs. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_graph}{Graph}} \mbox{\hyperlink{class_manager_a716df90efe99e99e8ebb1ac8a83db795}{network}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_manager_a9c679f596c97a8f14ea59cea4e3b0708}{tsp\+Backtracking\+Util}} (\mbox{\hyperlink{class_vertex}{Vertex}} \texorpdfstring{$\ast$}{*}current\+Vertex, vector$<$ int $>$ \&path, double cost, double \&best\+Cost, vector$<$ int $>$ \&best\+Path)
+\begin{DoxyCompactList}\small\item\em function used by \doxylink{class_manager_a07a991842ccc19466a9e36ccbbce2ae0}{tsp\+Backtracking()} to recursively find the best path for the Traveling Salesman Problem (TSP). It explores all possible paths in a depth-\/first manner and updates the best\+Cost and best\+Path variables accordingly. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_manager_a22689a9ae33f012e1fe501618c0fd283}{haversine}} (double lat1, double lon1, double lat2, double lon2)
+\begin{DoxyCompactList}\small\item\em Calculates the Haversine distance between two points on the Earth\textquotesingle{}s surface. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_manager_a684ec0e9188eef63697049bd175c8449}{prim}} ()
+\begin{DoxyCompactList}\small\item\em Applies the Prim\textquotesingle{}s algorithm to find a minimum spanning tree in the network. @\+Complexity O((V+E) \texorpdfstring{$\ast$}{*} log V) , where V is the number of vertexs and E is the number of edges. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_manager_a9c3768c549e153ab0e389405aab95b1f}{dfs}} (\mbox{\hyperlink{class_vertex}{Vertex}} \texorpdfstring{$\ast$}{*}vertex, vector$<$ \mbox{\hyperlink{class_vertex}{Vertex}} \texorpdfstring{$\ast$}{*} $>$ \&path)
+\begin{DoxyCompactList}\small\item\em Performs a depth-\/first search (DFS) starting from the given vertex, exploring only the selected edges. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_manager_a7861d385e949779fac6d25d3ce932b2d}{Approximation\+Distance}} (const vector$<$ \mbox{\hyperlink{class_vertex}{Vertex}} \texorpdfstring{$\ast$}{*} $>$ \&path)
+\begin{DoxyCompactList}\small\item\em Calculates the total approximate distance of a given path, considering both direct connections and Haversine connections. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_graph}{Graph}} \mbox{\hyperlink{class_manager_a3f09d20bde9105f4e05afcb526c4671c}{create\+New\+Graph}} (\mbox{\hyperlink{class_graph}{Graph}} Template\+Graph)
+\begin{DoxyCompactList}\small\item\em Creates a new graph based on a template graph. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_graph}{Graph}} \mbox{\hyperlink{class_manager_a092636d4c4565afd06eccfaa6caea4b6}{minimum\+Weight\+Matching}} (const vector$<$ \mbox{\hyperlink{class_vertex}{Vertex}} \texorpdfstring{$\ast$}{*} $>$ \&vertices)
+\begin{DoxyCompactList}\small\item\em Creates a minimum weight matching graph based on the given vertices. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_manager_a6b28e6723d6c47a59bae1a714fc21f05}{reset\+Graph}} ()
+\begin{DoxyCompactList}\small\item\em resets the graph. @\+Complexity O(\+V), where V is the number of vertexs. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_graph}{Graph}} \mbox{\hyperlink{class_manager_a81b7bcbd97c3f7049863762c056fe387}{merge\+Graphs}} (\mbox{\hyperlink{class_graph}{Graph}} graph, \mbox{\hyperlink{class_graph}{Graph}} graph1)
+\begin{DoxyCompactList}\small\item\em Merges two graphs into one. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Manages the whole system and provides various functions needed for the various applications. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_manager_a7861d385e949779fac6d25d3ce932b2d}\label{class_manager_a7861d385e949779fac6d25d3ce932b2d} 
+\index{Manager@{Manager}!ApproximationDistance@{ApproximationDistance}}
+\index{ApproximationDistance@{ApproximationDistance}!Manager@{Manager}}
+\doxysubsubsection{\texorpdfstring{ApproximationDistance()}{ApproximationDistance()}}
+{\footnotesize\ttfamily double Manager\+::\+Approximation\+Distance (\begin{DoxyParamCaption}\item[{const vector$<$ \mbox{\hyperlink{class_vertex}{Vertex}} \texorpdfstring{$\ast$}{*} $>$ \&}]{path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Calculates the total approximate distance of a given path, considering both direct connections and Haversine connections. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em path} & A vector containing the vertices of the path. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The total distance of the path. 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_manager_a7861d385e949779fac6d25d3ce932b2d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_manager_a7861d385e949779fac6d25d3ce932b2d_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_manager_a413a6610398682bbfa59c060c82fd4ea}\label{class_manager_a413a6610398682bbfa59c060c82fd4ea} 
+\index{Manager@{Manager}!christofides@{christofides}}
+\index{christofides@{christofides}!Manager@{Manager}}
+\doxysubsubsection{\texorpdfstring{christofides()}{christofides()}}
+{\footnotesize\ttfamily tuple$<$ double, double $>$ Manager\+::christofides (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Applies the Christofides algorithm to find an approximate solution to the Traveling Salesman Problem (TSP). @\+Complexity O((V+E)\texorpdfstring{$\ast$}{*}\+V\texorpdfstring{$^\wedge$}{\string^}2), where V is the number of vertexs. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_manager_a413a6610398682bbfa59c060c82fd4ea_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_manager_a413a6610398682bbfa59c060c82fd4ea_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_manager_a3f09d20bde9105f4e05afcb526c4671c}\label{class_manager_a3f09d20bde9105f4e05afcb526c4671c} 
+\index{Manager@{Manager}!createNewGraph@{createNewGraph}}
+\index{createNewGraph@{createNewGraph}!Manager@{Manager}}
+\doxysubsubsection{\texorpdfstring{createNewGraph()}{createNewGraph()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_graph}{Graph}} Manager\+::create\+New\+Graph (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_graph}{Graph}}}]{Template\+Graph }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Creates a new graph based on a template graph. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Template\+Graph} & The template graph to create the new graph from. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The newly created graph. @\+Complexity O((V+E) log V) 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_manager_a3f09d20bde9105f4e05afcb526c4671c_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_manager_a3f09d20bde9105f4e05afcb526c4671c_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_manager_a9c3768c549e153ab0e389405aab95b1f}\label{class_manager_a9c3768c549e153ab0e389405aab95b1f} 
+\index{Manager@{Manager}!dfs@{dfs}}
+\index{dfs@{dfs}!Manager@{Manager}}
+\doxysubsubsection{\texorpdfstring{dfs()}{dfs()}}
+{\footnotesize\ttfamily void Manager\+::dfs (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_vertex}{Vertex}} \texorpdfstring{$\ast$}{*}}]{vertex,  }\item[{vector$<$ \mbox{\hyperlink{class_vertex}{Vertex}} \texorpdfstring{$\ast$}{*} $>$ \&}]{path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Performs a depth-\/first search (DFS) starting from the given vertex, exploring only the selected edges. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vertex} & The starting vertex for the DFS. \\
+\hline
+{\em path} & A vector to store the visited path. @\+Complexity O(V+E), where V is the number of vertexs and E is the number of edges. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=282pt]{class_manager_a9c3768c549e153ab0e389405aab95b1f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_manager_a9c3768c549e153ab0e389405aab95b1f_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_manager_a22689a9ae33f012e1fe501618c0fd283}\label{class_manager_a22689a9ae33f012e1fe501618c0fd283} 
+\index{Manager@{Manager}!haversine@{haversine}}
+\index{haversine@{haversine}!Manager@{Manager}}
+\doxysubsubsection{\texorpdfstring{haversine()}{haversine()}}
+{\footnotesize\ttfamily double Manager\+::haversine (\begin{DoxyParamCaption}\item[{double}]{lat1,  }\item[{double}]{lon1,  }\item[{double}]{lat2,  }\item[{double}]{lon2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Calculates the Haversine distance between two points on the Earth\textquotesingle{}s surface. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lat1} & Latitude of the first point in degrees \\
+\hline
+{\em lon1} & Longitude of the first point in degrees \\
+\hline
+{\em lat2} & Latitude of the second point in degrees \\
+\hline
+{\em lon2} & Longitude of the second point in degrees \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The Haversine distance between the two points in the same unit as the Earth\textquotesingle{}s radius @\+Complexity O(1) 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_manager_a22689a9ae33f012e1fe501618c0fd283_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_manager_a81b7bcbd97c3f7049863762c056fe387}\label{class_manager_a81b7bcbd97c3f7049863762c056fe387} 
+\index{Manager@{Manager}!mergeGraphs@{mergeGraphs}}
+\index{mergeGraphs@{mergeGraphs}!Manager@{Manager}}
+\doxysubsubsection{\texorpdfstring{mergeGraphs()}{mergeGraphs()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_graph}{Graph}} Manager\+::merge\+Graphs (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_graph}{Graph}}}]{graph,  }\item[{\mbox{\hyperlink{class_graph}{Graph}}}]{graph1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Merges two graphs into one. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em graph} & \\
+\hline
+{\em graph1} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+@\+Complexity O(V1\texorpdfstring{$\ast$}{*}\+E1\texorpdfstring{$\ast$}{*}(V+E)), where V is the number of vertexs and E is the number of edges of graph and V1 is the number of vertexs and E1 is the number of edges of graph1. 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_manager_a81b7bcbd97c3f7049863762c056fe387_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_manager_a81b7bcbd97c3f7049863762c056fe387_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_manager_a092636d4c4565afd06eccfaa6caea4b6}\label{class_manager_a092636d4c4565afd06eccfaa6caea4b6} 
+\index{Manager@{Manager}!minimumWeightMatching@{minimumWeightMatching}}
+\index{minimumWeightMatching@{minimumWeightMatching}!Manager@{Manager}}
+\doxysubsubsection{\texorpdfstring{minimumWeightMatching()}{minimumWeightMatching()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_graph}{Graph}} Manager\+::minimum\+Weight\+Matching (\begin{DoxyParamCaption}\item[{const vector$<$ \mbox{\hyperlink{class_vertex}{Vertex}} \texorpdfstring{$\ast$}{*} $>$ \&}]{vertices }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Creates a minimum weight matching graph based on the given vertices. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vertices} & A vector of pointers to vertices. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The minimum weight matching graph. @\+Complexity O((V+E)\texorpdfstring{$\ast$}{*}\+V\texorpdfstring{$^\wedge$}{\string^}2), where V is the number of vertexs and E is the number of edges. 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_manager_a092636d4c4565afd06eccfaa6caea4b6_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_manager_a092636d4c4565afd06eccfaa6caea4b6_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_manager_a684ec0e9188eef63697049bd175c8449}\label{class_manager_a684ec0e9188eef63697049bd175c8449} 
+\index{Manager@{Manager}!prim@{prim}}
+\index{prim@{prim}!Manager@{Manager}}
+\doxysubsubsection{\texorpdfstring{prim()}{prim()}}
+{\footnotesize\ttfamily void Manager\+::prim (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Applies the Prim\textquotesingle{}s algorithm to find a minimum spanning tree in the network. @\+Complexity O((V+E) \texorpdfstring{$\ast$}{*} log V) , where V is the number of vertexs and E is the number of edges. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_manager_a684ec0e9188eef63697049bd175c8449_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_manager_a684ec0e9188eef63697049bd175c8449_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_manager_a1078a46f180586499a1730394b219b3f}\label{class_manager_a1078a46f180586499a1730394b219b3f} 
+\index{Manager@{Manager}!ReadFileToyGraphShipping@{ReadFileToyGraphShipping}}
+\index{ReadFileToyGraphShipping@{ReadFileToyGraphShipping}!Manager@{Manager}}
+\doxysubsubsection{\texorpdfstring{ReadFileToyGraphShipping()}{ReadFileToyGraphShipping()}}
+{\footnotesize\ttfamily void Manager\+::\+Read\+File\+Toy\+Graph\+Shipping (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Reads the file shipping file and creates a graph with the information in it. @\+Complexity O(\+V\texorpdfstring{$\ast$}{*}\+E),Where V is the number of vertexs and E is the number of edges. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_manager_a1078a46f180586499a1730394b219b3f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_manager_a1078a46f180586499a1730394b219b3f_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_manager_a94848877d6d9aa3ff88b574af05b96c5}\label{class_manager_a94848877d6d9aa3ff88b574af05b96c5} 
+\index{Manager@{Manager}!ReadFileToyGraphStadiums@{ReadFileToyGraphStadiums}}
+\index{ReadFileToyGraphStadiums@{ReadFileToyGraphStadiums}!Manager@{Manager}}
+\doxysubsubsection{\texorpdfstring{ReadFileToyGraphStadiums()}{ReadFileToyGraphStadiums()}}
+{\footnotesize\ttfamily void Manager\+::\+Read\+File\+Toy\+Graph\+Stadiums (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Reads the file stadiums file and creates a graph with the information in it. @\+Complexity O(\+V\texorpdfstring{$\ast$}{*}\+E),Where V is the number of vertexs and E is the number of edges. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_manager_a94848877d6d9aa3ff88b574af05b96c5_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_manager_a94848877d6d9aa3ff88b574af05b96c5_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_manager_a0fa81e2c235358bcb674b2fe2b6e3410}\label{class_manager_a0fa81e2c235358bcb674b2fe2b6e3410} 
+\index{Manager@{Manager}!ReadFileToyGraphTourism@{ReadFileToyGraphTourism}}
+\index{ReadFileToyGraphTourism@{ReadFileToyGraphTourism}!Manager@{Manager}}
+\doxysubsubsection{\texorpdfstring{ReadFileToyGraphTourism()}{ReadFileToyGraphTourism()}}
+{\footnotesize\ttfamily void Manager\+::\+Read\+File\+Toy\+Graph\+Tourism (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Reads the file tourism file and creates a graph with the information in it. @\+Complexity O(\+V\texorpdfstring{$\ast$}{*}\+E),Where V is the number of vertexs and E is the number of edges. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_manager_a0fa81e2c235358bcb674b2fe2b6e3410_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_manager_a0fa81e2c235358bcb674b2fe2b6e3410_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_manager_af2aed9183b5d9a58fbf0ee826d766079}\label{class_manager_af2aed9183b5d9a58fbf0ee826d766079} 
+\index{Manager@{Manager}!ReadMediumGraphs@{ReadMediumGraphs}}
+\index{ReadMediumGraphs@{ReadMediumGraphs}!Manager@{Manager}}
+\doxysubsubsection{\texorpdfstring{ReadMediumGraphs()}{ReadMediumGraphs()}}
+{\footnotesize\ttfamily void Manager\+::\+Read\+Medium\+Graphs (\begin{DoxyParamCaption}\item[{string}]{node\+\_\+number }\end{DoxyParamCaption})}
+
+
+
+Reads the Read\+Medium\+Graph file nº node\+\_\+number and creates a graph with the information in it. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em node\+\_\+number} & @\+Complexity O(\+V\texorpdfstring{$\ast$}{*}\+E),Where V is the number of vertexs and E is the number of edges. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_manager_af2aed9183b5d9a58fbf0ee826d766079_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_manager_af2aed9183b5d9a58fbf0ee826d766079_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_manager_a5525eb8810f21b446a0a2cb7bf00ac60}\label{class_manager_a5525eb8810f21b446a0a2cb7bf00ac60} 
+\index{Manager@{Manager}!ReadRealWorldGraphs@{ReadRealWorldGraphs}}
+\index{ReadRealWorldGraphs@{ReadRealWorldGraphs}!Manager@{Manager}}
+\doxysubsubsection{\texorpdfstring{ReadRealWorldGraphs()}{ReadRealWorldGraphs()}}
+{\footnotesize\ttfamily void Manager\+::\+Read\+Real\+World\+Graphs (\begin{DoxyParamCaption}\item[{string}]{file\+\_\+number }\end{DoxyParamCaption})}
+
+
+
+Reads the Real\+World\+Graph file nª file\+\_\+number and creates a graph with the information in it. @\+Complexity O(V+E),Where V is the number of vertexs and E is the number of edges. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+\_\+number} & \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_manager_a5525eb8810f21b446a0a2cb7bf00ac60_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_manager_a5525eb8810f21b446a0a2cb7bf00ac60_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_manager_a6b28e6723d6c47a59bae1a714fc21f05}\label{class_manager_a6b28e6723d6c47a59bae1a714fc21f05} 
+\index{Manager@{Manager}!resetGraph@{resetGraph}}
+\index{resetGraph@{resetGraph}!Manager@{Manager}}
+\doxysubsubsection{\texorpdfstring{resetGraph()}{resetGraph()}}
+{\footnotesize\ttfamily void Manager\+::reset\+Graph (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+resets the graph. @\+Complexity O(\+V), where V is the number of vertexs. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=320pt]{class_manager_a6b28e6723d6c47a59bae1a714fc21f05_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_manager_a6b28e6723d6c47a59bae1a714fc21f05_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_manager_ab2cc466cedfea314fe38082e2203bb4a}\label{class_manager_ab2cc466cedfea314fe38082e2203bb4a} 
+\index{Manager@{Manager}!tspApproximation@{tspApproximation}}
+\index{tspApproximation@{tspApproximation}!Manager@{Manager}}
+\doxysubsubsection{\texorpdfstring{tspApproximation()}{tspApproximation()}}
+{\footnotesize\ttfamily tuple$<$ double, double $>$ Manager\+::tsp\+Approximation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This function calculates an approximate solution to the Traveling Salesman Problem (TSP) using a combination of Prim\textquotesingle{}s algorithm, Depth-\/\+First Search (DFS), and other utility functions. 
+
+\begin{DoxyReturn}{Returns}
+A tuple containing the total distance of the approximate TSP solution and the duration of the function execution. @\+Complexity O((V + E) log V), where V is the number of vertexs. 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_manager_ab2cc466cedfea314fe38082e2203bb4a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_manager_ab2cc466cedfea314fe38082e2203bb4a_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_manager_a07a991842ccc19466a9e36ccbbce2ae0}\label{class_manager_a07a991842ccc19466a9e36ccbbce2ae0} 
+\index{Manager@{Manager}!tspBacktracking@{tspBacktracking}}
+\index{tspBacktracking@{tspBacktracking}!Manager@{Manager}}
+\doxysubsubsection{\texorpdfstring{tspBacktracking()}{tspBacktracking()}}
+{\footnotesize\ttfamily tuple$<$ vector$<$ int $>$, double, double $>$ Manager\+::tsp\+Backtracking (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This function performs the traveling salesman problem using backtracking algorithm. @\+Complexity O(2\texorpdfstring{$^\wedge$}{\string^}\+V), where V is the number of vertexs. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_manager_a07a991842ccc19466a9e36ccbbce2ae0_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_manager_a07a991842ccc19466a9e36ccbbce2ae0_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_manager_a9c679f596c97a8f14ea59cea4e3b0708}\label{class_manager_a9c679f596c97a8f14ea59cea4e3b0708} 
+\index{Manager@{Manager}!tspBacktrackingUtil@{tspBacktrackingUtil}}
+\index{tspBacktrackingUtil@{tspBacktrackingUtil}!Manager@{Manager}}
+\doxysubsubsection{\texorpdfstring{tspBacktrackingUtil()}{tspBacktrackingUtil()}}
+{\footnotesize\ttfamily void Manager\+::tsp\+Backtracking\+Util (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_vertex}{Vertex}} \texorpdfstring{$\ast$}{*}}]{current\+Vertex,  }\item[{vector$<$ int $>$ \&}]{path,  }\item[{double}]{cost,  }\item[{double \&}]{best\+Cost,  }\item[{vector$<$ int $>$ \&}]{best\+Path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+function used by \doxylink{class_manager_a07a991842ccc19466a9e36ccbbce2ae0}{tsp\+Backtracking()} to recursively find the best path for the Traveling Salesman Problem (TSP). It explores all possible paths in a depth-\/first manner and updates the best\+Cost and best\+Path variables accordingly. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em current\+Vertex} & Pointer to the current vertex being visited in the path. \\
+\hline
+{\em path} & Reference to the vector that stores the current path being explored. \\
+\hline
+{\em cost} & The cost of the current path. \\
+\hline
+{\em best\+Cost} & Reference to the variable storing the best cost found so far. \\
+\hline
+{\em best\+Path} & Reference to the vector storing the best path found so far. @\+Complexity O(2\texorpdfstring{$^\wedge$}{\string^}\+V), where V is the number of vertexs. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_manager_a9c679f596c97a8f14ea59cea4e3b0708_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_manager_a9c679f596c97a8f14ea59cea4e3b0708_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_manager_a716df90efe99e99e8ebb1ac8a83db795}\label{class_manager_a716df90efe99e99e8ebb1ac8a83db795} 
+\index{Manager@{Manager}!network@{network}}
+\index{network@{network}!Manager@{Manager}}
+\doxysubsubsection{\texorpdfstring{network}{network}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_graph}{Graph}} Manager\+::network}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{manager_8h}{manager.\+h}}\item 
+\mbox{\hyperlink{manager_8cpp}{manager.\+cpp}}\end{DoxyCompactItemize}

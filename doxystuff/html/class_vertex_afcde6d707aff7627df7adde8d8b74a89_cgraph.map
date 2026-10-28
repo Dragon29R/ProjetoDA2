@@ -1,0 +1,7 @@
+<map id="Vertex::removeOutgoingEdges" name="Vertex::removeOutgoingEdges">
+<area shape="rect" id="Node000001" title="Removes all outgoing edges from this vertex. @complexity O(E), where E is the number of edges." alt="" coords="5,5,203,32"/>
+<area shape="rect" id="Node000002" href="$class_vertex.html#ac2a80daa5a6a208173f55d4d161334f1" title="Deletes the given edge from the vertex&#39;s list of outgoing edges." alt="" coords="251,5,383,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="203,16,236,16,236,21,203,21"/>
+<area shape="rect" id="Node000003" href="$class_edge.html#a5cda44e9ba257b03963a1ac301371a59" title="Gets the destination vertex of the edge." alt="" coords="431,5,535,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="383,16,416,16,416,21,383,21"/>
+</map>

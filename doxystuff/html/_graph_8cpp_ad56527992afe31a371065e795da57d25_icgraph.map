@@ -1,0 +1,5 @@
+<map id="deleteMatrix" name="deleteMatrix">
+<area shape="rect" id="Node000001" title="Deletes the given integer matrix." alt="" coords="161,5,253,32"/>
+<area shape="rect" id="Node000002" href="$class_graph.html#a902c5b3eacb66d60752525ab23297a95" title="Destroys the Graph object and frees its resources." alt="" coords="5,5,113,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="146,21,113,21,113,16,146,16"/>
+</map>

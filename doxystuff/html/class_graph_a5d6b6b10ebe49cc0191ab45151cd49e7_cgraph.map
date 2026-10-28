@@ -1,0 +1,5 @@
+<map id="Graph::addBidirectionalEdge" name="Graph::addBidirectionalEdge">
+<area shape="rect" id="Node000001" title="Adds a new bidirectional edge to the graph." alt="" coords="5,5,192,32"/>
+<area shape="rect" id="Node000002" href="$class_graph.html#a089f7fc73ea9976295d387846ad36c69" title="Finds the vertex with the given ID." alt="" coords="240,5,362,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,16,224,16,224,21,192,21"/>
+</map>

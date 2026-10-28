@@ -1,0 +1,31 @@
+<map id="Manager::prim" name="Manager::prim">
+<area shape="rect" id="Node000001" title="Applies the Prim&#39;s algorithm to find a minimum spanning tree in the network. @Complexity O((V+E) * lo..." alt="" coords="5,383,110,409"/>
+<area shape="rect" id="Node000002" href="$class_mutable_priority_queue.html#a0878839cc1d2dba2b8ab2e589ecc6405" title=" " alt="" coords="158,5,304,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="56,382,60,325,74,240,86,192,104,145,126,99,156,58,158,56,162,59,160,62,131,102,108,147,91,194,79,241,66,325,62,382"/>
+<area shape="rect" id="Node000003" href="$class_mutable_priority_queue.html#a2edbb1f4a6fa3ff735700dfcebebe8d4" title=" " alt="" coords="158,72,304,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="58,382,65,335,81,267,110,192,131,157,156,125,158,122,162,126,160,128,135,160,115,195,86,268,70,336,63,383"/>
+<area shape="rect" id="Node000004" href="$class_mutable_priority_queue.html#a3880874d7364279ac0d6d31302b28853" title=" " alt="" coords="158,139,304,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="60,382,70,345,89,295,117,240,156,192,159,188,163,192,160,195,122,243,94,297,75,347,65,383"/>
+<area shape="rect" id="Node000005" href="$class_graph.html#a089f7fc73ea9976295d387846ad36c69" title="Finds the vertex with the given ID." alt="" coords="170,205,292,232"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="62,381,95,315,122,276,156,242,163,237,166,241,159,246,126,279,99,318,67,383"/>
+<area shape="rect" id="Node000006" href="$class_vertex.html#a9858f2aa388d2bfb49d9df8f4504b5a0" title="Returns the adjacent edges of the vertex." alt="" coords="179,256,283,283"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="67,381,103,338,128,314,156,292,166,287,168,292,159,297,132,318,107,341,71,384"/>
+<area shape="rect" id="Node000007" href="$class_vertex.html#aa36ca926de23a6e7283be42e2930957c" title="Returns the distance of the vertex." alt="" coords="177,307,285,333"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="82,380,157,343,173,336,175,341,159,348,85,385"/>
+<area shape="rect" id="Node000008" href="$class_edge.html#a756d2d246aa5445d0f396626c7d4fd56" title="Gets the reverse edge of the current edge." alt="" coords="169,357,293,384"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="110,386,154,379,155,384,110,391"/>
+<area shape="rect" id="Node000009" href="$class_graph.html#a34dc8268e703217705d6ba9ac8b02170" title="Gets the vector of vertices in the graph." alt="" coords="161,408,301,435"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="110,401,146,406,145,412,110,406"/>
+<area shape="rect" id="Node000010" href="$class_mutable_priority_queue.html#a058fc182052af82e10cc3719e448b62d" title=" " alt="" coords="158,459,304,501"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="86,407,159,444,169,449,167,454,156,449,84,412"/>
+<area shape="rect" id="Node000011" href="$class_vertex.html#aa4bd82105b85ee53a917391f4811cd8a" title="Returns the visited status of the vertex." alt="" coords="172,525,290,552"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="69,408,104,458,130,486,159,511,167,516,165,521,156,515,126,490,100,461,65,411"/>
+<area shape="rect" id="Node000012" href="$class_vertex.html#a6939bef79bfe5fe5bf77d9fd1bd70085" title="Sets the distance of the vertex." alt="" coords="177,576,285,603"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="66,409,78,440,97,481,124,525,159,562,165,566,162,571,156,566,120,528,93,484,73,442,61,411"/>
+<area shape="rect" id="Node000013" href="$class_vertex.html#abe4bc30005eec65e775d0cd51f456460" title="Sets the path of the vertex." alt="" coords="175,627,287,653"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="64,409,73,449,91,504,119,562,138,589,159,613,164,617,161,621,156,617,133,592,114,565,86,506,68,451,59,411"/>
+<area shape="rect" id="Node000014" href="$class_edge.html#a8ab1cf2fe7fd16152d1dba3822853894" title="Sets whether the edge is selected." alt="" coords="167,677,295,704"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="63,410,69,457,85,525,97,562,113,599,134,633,160,663,164,667,160,671,156,667,130,636,109,601,92,564,79,527,64,458,57,410"/>
+<area shape="rect" id="Node000015" href="$class_vertex.html#a15eeabbbb6d517af746ae137c6d5b595" title="Sets the visited status of the vertex." alt="" coords="168,728,294,755"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="62,410,65,465,79,546,91,591,108,635,131,677,160,714,163,717,159,721,156,718,126,680,103,638,86,593,73,548,60,466,56,410"/>
+</map>

@@ -1,0 +1,32 @@
+<map id="TspBacktracking" name="TspBacktracking">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,83,124,110"/>
+<area shape="rect" id="Node000002" href="$class_manager.html#a07a991842ccc19466a9e36ccbbce2ae0" title="This function performs the traveling salesman problem using backtracking algorithm...." alt="" coords="172,83,345,110"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="124,94,157,94,157,99,124,99"/>
+<area shape="rect" id="Node000003" href="$class_graph.html#a089f7fc73ea9976295d387846ad36c69" title="Finds the vertex with the given ID." alt="" coords="829,159,951,186"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="286,80,335,60,392,43,503,20,591,4,634,3,678,8,727,21,782,43,814,64,840,91,877,145,873,148,836,94,810,68,779,48,725,26,677,14,634,9,592,10,504,25,394,48,337,65,288,85"/>
+<area shape="rect" id="Node000004" href="$class_manager.html#a6b28e6723d6c47a59bae1a714fc21f05" title="resets the graph. @Complexity O(V), where V is the number of vertexs." alt="" coords="418,58,561,85"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="345,84,403,78,403,83,346,90"/>
+<area shape="rect" id="Node000006" href="$class_vertex.html#a15eeabbbb6d517af746ae137c6d5b595" title="Sets the visited status of the vertex." alt="" coords="644,109,770,135"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="346,99,630,115,630,120,346,104"/>
+<area shape="rect" id="Node000007" href="$class_manager.html#a9c679f596c97a8f14ea59cea4e3b0708" title="function used by tspBacktracking() to recursively find the best path for the Traveling Salesman Probl..." alt="" coords="393,261,585,287"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="279,108,461,249,457,253,276,113"/>
+<area shape="rect" id="Node000005" href="$class_graph.html#aeca239012103ede21f7cc2cf2976c3a5" title=" " alt="" coords="643,58,771,85"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="561,69,628,69,628,74,561,74"/>
+<area shape="poly" id="edge10_Node000007_Node000003" title=" " alt="" coords="509,258,563,225,597,209,633,195,679,184,726,176,814,170,815,175,727,182,680,189,634,200,599,214,565,230,512,262"/>
+<area shape="poly" id="edge16_Node000007_Node000006" title=" " alt="" coords="502,258,557,208,632,152,655,139,657,144,635,156,560,212,506,262"/>
+<area shape="poly" id="edge17_Node000007_Node000007" title=" " alt="" coords="452,262,446,252,450,242,465,236,489,234,517,237,530,244,527,249,515,242,489,239,466,241,454,246,451,251,457,259"/>
+<area shape="rect" id="Node000008" href="$class_graph.html#a6857599c7a3eb276cb9dc802e342b20b" title=" " alt="" coords="650,210,764,237"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="549,257,635,237,636,242,550,262"/>
+<area shape="rect" id="Node000009" href="$class_vertex.html#a9858f2aa388d2bfb49d9df8f4504b5a0" title="Returns the adjacent edges of the vertex." alt="" coords="838,235,942,262"/>
+<area shape="poly" id="edge11_Node000007_Node000009" title=" " alt="" coords="586,265,823,250,823,255,586,270"/>
+<area shape="rect" id="Node000010" href="$class_vertex.html#a75b6b4a4afc26affea59fdae48aa30b1" title="Returns the ID of the vertex." alt="" coords="659,311,755,338"/>
+<area shape="poly" id="edge12_Node000007_Node000010" title=" " alt="" coords="550,285,645,308,644,313,549,290"/>
+<area shape="rect" id="Node000011" href="$class_graph.html#abb5e0517e2979c54eebdafc2a9875e8f" title="Gets the number of vertices in the graph." alt="" coords="633,362,781,389"/>
+<area shape="poly" id="edge13_Node000007_Node000011" title=" " alt="" coords="515,285,569,315,634,347,650,354,648,359,632,352,566,320,512,290"/>
+<area shape="rect" id="Node000012" href="$class_edge.html#a1caaffca117bab3ff5b7387623a356f8" title="Gets the weight of the edge." alt="" coords="648,413,766,439"/>
+<area shape="poly" id="edge14_Node000007_Node000012" title=" " alt="" coords="504,286,558,340,595,371,635,398,646,404,643,409,632,403,591,375,554,344,501,289"/>
+<area shape="rect" id="Node000013" href="$class_vertex.html#aa4bd82105b85ee53a917391f4811cd8a" title="Returns the visited status of the vertex." alt="" coords="648,463,766,490"/>
+<area shape="poly" id="edge15_Node000007_Node000013" title=" " alt="" coords="500,286,550,363,589,409,635,449,643,454,640,459,632,453,585,413,546,366,496,289"/>
+<area shape="poly" id="edge8_Node000008_Node000003" title=" " alt="" coords="757,207,824,188,826,193,759,212"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="765,228,823,237,823,242,764,234"/>
+</map>

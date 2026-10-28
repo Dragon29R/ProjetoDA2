@@ -1,0 +1,10 @@
+<map id="Manager::dfs" name="Manager::dfs">
+<area shape="rect" id="Node000001" title="Performs a depth&#45;first search (DFS) starting from the given vertex, exploring only the selected edges..." alt="" coords="5,56,102,83"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="26,57,21,47,24,38,36,32,54,29,74,32,84,39,81,44,72,37,53,35,37,37,29,41,26,47,31,54"/>
+<area shape="rect" id="Node000002" href="$class_vertex.html#a9858f2aa388d2bfb49d9df8f4504b5a0" title="Returns the adjacent edges of the vertex." alt="" coords="160,5,265,32"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="97,53,153,35,155,40,99,58"/>
+<area shape="rect" id="Node000003" href="$class_vertex.html#aa4bd82105b85ee53a917391f4811cd8a" title="Returns the visited status of the vertex." alt="" coords="154,56,271,83"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="102,67,139,67,139,72,102,72"/>
+<area shape="rect" id="Node000004" href="$class_vertex.html#a15eeabbbb6d517af746ae137c6d5b595" title="Sets the visited status of the vertex." alt="" coords="150,107,275,133"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="99,81,155,99,153,104,97,86"/>
+</map>

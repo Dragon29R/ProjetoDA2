@@ -1,0 +1,21 @@
+<map id="Edge::getReverse" name="Edge::getReverse">
+<area shape="rect" id="Node000001" title="Gets the reverse edge of the current edge." alt="" coords="1225,56,1348,83"/>
+<area shape="rect" id="Node000002" href="$class_manager.html#a684ec0e9188eef63697049bd175c8449" title="Applies the Prim&#39;s algorithm to find a minimum spanning tree in the network. @Complexity O((V+E) * lo..." alt="" coords="1072,56,1177,83"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1210,72,1177,72,1177,67,1210,67"/>
+<area shape="rect" id="Node000003" href="$class_manager.html#ab2cc466cedfea314fe38082e2203bb4a" title="This function calculates an approximate solution to the Traveling Salesman Problem (TSP) using a comb..." alt="" coords="844,56,1024,83"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1057,72,1025,72,1025,67,1057,67"/>
+<area shape="rect" id="Node000004" href="$main_8cpp.html#afea23894e5f28d0efb3907e90bf5347a" title=" " alt="" coords="671,56,796,83"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="829,72,796,72,796,67,829,67"/>
+<area shape="rect" id="Node000005" href="$main_8cpp.html#a28fd21995af1cefff4185d611245ba3c" title=" " alt="" coords="444,5,616,32"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="662,54,586,35,587,30,663,49"/>
+<area shape="rect" id="Node000006" href="$main_8cpp.html#ad802fc40f402d7fdfbce2fc539da89b7" title=" " alt="" coords="232,56,389,83"/>
+<area shape="poly" id="edge8_Node000004_Node000006" title=" " alt="" coords="656,72,390,72,390,67,656,67"/>
+<area shape="rect" id="Node000009" href="$main_8cpp.html#a3b6a5d8aa77bb32ce88b48fd3601ff9c" title=" " alt="" coords="437,107,623,133"/>
+<area shape="poly" id="edge9_Node000004_Node000009" title=" " alt="" coords="663,89,587,109,586,103,662,84"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="455,39,372,58,371,53,454,33"/>
+<area shape="rect" id="Node000007" href="$main_8cpp.html#a6ad0e8059b3738a20454f521a20c093b" title=" " alt="" coords="103,56,184,83"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="217,72,184,72,184,67,217,67"/>
+<area shape="rect" id="Node000008" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,56,55,83"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="88,72,55,72,55,67,88,67"/>
+<area shape="poly" id="edge10_Node000009_Node000006" title=" " alt="" coords="454,105,371,86,372,81,455,100"/>
+</map>

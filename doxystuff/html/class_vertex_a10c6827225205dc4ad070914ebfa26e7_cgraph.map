@@ -1,0 +1,7 @@
+<map id="Vertex::removeEdge" name="Vertex::removeEdge">
+<area shape="rect" id="Node000001" title="Removes the outgoing edge with the given destination vertex ID from this vertex." alt="" coords="5,5,144,32"/>
+<area shape="rect" id="Node000002" href="$class_vertex.html#ac2a80daa5a6a208173f55d4d161334f1" title="Deletes the given edge from the vertex&#39;s list of outgoing edges." alt="" coords="192,5,324,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="144,16,177,16,177,21,144,21"/>
+<area shape="rect" id="Node000003" href="$class_edge.html#a5cda44e9ba257b03963a1ac301371a59" title="Gets the destination vertex of the edge." alt="" coords="372,5,476,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="324,16,357,16,357,21,324,21"/>
+</map>

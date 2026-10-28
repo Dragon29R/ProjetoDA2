@@ -1,0 +1,36 @@
+<map id="MutablePriorityQueue::empty" name="MutablePriorityQueue::empty">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1296,111,1442,153"/>
+<area shape="rect" id="Node000002" href="$class_manager.html#a3f09d20bde9105f4e05afcb526c4671c" title="Creates a new graph based on a template graph." alt="" coords="1072,87,1248,113"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1281,121,1248,116,1249,111,1282,116"/>
+<area shape="rect" id="Node000010" href="$class_manager.html#a684ec0e9188eef63697049bd175c8449" title="Applies the Prim&#39;s algorithm to find a minimum spanning tree in the network. @Complexity O((V+E) * lo..." alt="" coords="1108,144,1212,171"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="1281,145,1213,154,1212,148,1281,140"/>
+<area shape="rect" id="Node000003" href="$class_manager.html#a413a6610398682bbfa59c060c82fd4ea" title="Applies the Christofides algorithm to find an approximate solution to the Traveling Salesman Problem ..." alt="" coords="862,84,1007,111"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1057,101,1007,101,1007,96,1057,96"/>
+<area shape="rect" id="Node000004" href="$main_8cpp.html#a44b89275122e9463c1354fdbc2a2aba7" title=" " alt="" coords="678,83,789,109"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="847,99,789,99,789,94,847,94"/>
+<area shape="rect" id="Node000005" href="$main_8cpp.html#a611d22f06d063d07635221ac8240d862" title=" " alt="" coords="452,5,608,32"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="685,79,622,53,572,35,573,30,624,48,687,74"/>
+<area shape="rect" id="Node000006" href="$main_8cpp.html#a0585cca271f7e78e581b3f0399328428" title=" " alt="" coords="240,81,382,108"/>
+<area shape="poly" id="edge8_Node000004_Node000006" title=" " alt="" coords="663,98,623,97,382,97,382,92,623,92,663,92"/>
+<area shape="rect" id="Node000009" href="$main_8cpp.html#ad6d1740e6a96b23522b5dc879c35d835" title=" " alt="" coords="445,107,615,133"/>
+<area shape="poly" id="edge9_Node000004_Node000009" title=" " alt="" coords="664,107,616,113,615,107,663,102"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="476,40,438,53,352,83,351,78,436,48,475,35"/>
+<area shape="rect" id="Node000007" href="$main_8cpp.html#a6ad0e8059b3738a20454f521a20c093b" title=" " alt="" coords="103,120,184,147"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="236,115,185,127,184,121,235,109"/>
+<area shape="rect" id="Node000008" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,120,55,147"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="88,136,55,136,55,131,88,131"/>
+<area shape="poly" id="edge10_Node000009_Node000006" title=" " alt="" coords="429,111,382,106,383,100,430,106"/>
+<area shape="rect" id="Node000011" href="$class_manager.html#ab2cc466cedfea314fe38082e2203bb4a" title="This function calculates an approximate solution to the Traveling Salesman Problem (TSP) using a comb..." alt="" coords="844,156,1024,183"/>
+<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="1093,164,1025,167,1025,162,1093,158"/>
+<area shape="rect" id="Node000012" href="$main_8cpp.html#afea23894e5f28d0efb3907e90bf5347a" title=" " alt="" coords="671,181,796,208"/>
+<area shape="poly" id="edge13_Node000011_Node000012" title=" " alt="" coords="830,185,797,189,796,184,829,180"/>
+<area shape="rect" id="Node000013" href="$main_8cpp.html#a28fd21995af1cefff4185d611245ba3c" title=" " alt="" coords="444,157,616,184"/>
+<area shape="poly" id="edge14_Node000012_Node000013" title=" " alt="" coords="656,188,616,183,617,178,656,183"/>
+<area shape="rect" id="Node000014" href="$main_8cpp.html#ad802fc40f402d7fdfbce2fc539da89b7" title=" " alt="" coords="232,183,389,209"/>
+<area shape="poly" id="edge17_Node000012_Node000014" title=" " alt="" coords="656,198,623,199,390,199,390,194,623,193,656,193"/>
+<area shape="rect" id="Node000015" href="$main_8cpp.html#a3b6a5d8aa77bb32ce88b48fd3601ff9c" title=" " alt="" coords="437,259,623,285"/>
+<area shape="poly" id="edge18_Node000012_Node000015" title=" " alt="" coords="687,217,624,242,573,261,572,256,622,238,685,212"/>
+<area shape="poly" id="edge15_Node000013_Node000014" title=" " alt="" coords="430,185,390,190,389,184,430,180"/>
+<area shape="poly" id="edge16_Node000014_Node000007" title=" " alt="" coords="258,179,180,150,182,145,260,174"/>
+<area shape="poly" id="edge19_Node000015_Node000014" title=" " alt="" coords="475,256,436,243,351,212,352,207,438,237,476,251"/>
+</map>
